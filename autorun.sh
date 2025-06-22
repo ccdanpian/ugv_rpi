@@ -2,7 +2,7 @@
 
 if [ -n "$SUDO_USER" ] || [ -n "$SUDO_UID" ]; then
     echo "This script was executed with sudo."
-    echo "Use './autorun_minimal.sh' instead of 'sudo ./autorun_minimal.sh'"
+    echo "Use './autorun.sh' instead of 'sudo ./autorun.sh'"
     echo "Exiting..."
     exit 1
 fi
